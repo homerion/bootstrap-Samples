@@ -1,3 +1,4 @@
+
 .center {
   display: block;
   margin: 4px auto;
@@ -9,7 +10,7 @@ footer{
   color: #555;
   padding: 25px;
   margin-top: 30px;
-
+  text-size: 2vw;
 }
 .card{
   margin: 25px;
@@ -99,4 +100,19 @@ fieldset{
 button#create_account{
   background-color: #e7e9ec;
   border-color: #adb1b8 #a2a6ac #8d9096;
+}
+/***********************
+
+
+
+
+
+for devices under 600 pixels
+
+
+ *************************/
+
+@media only screen and (max-width:600px){
+
+
 }
